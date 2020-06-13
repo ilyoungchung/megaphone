@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "17686380429",
+    "firebase_url": "https://shoutout-4767d.firebaseio.com",
+    "project_id": "shoutout-4767d",
+    "storage_bucket": "shoutout-4767d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17686380429:android:3204aac50d977f896887c4",
+        "android_client_info": {
+          "package_name": "com.example.shoutout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17686380429-7fb849th170b9e6klrfup8ltdhid0sl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoutout",
+            "certificate_hash": "895ab4817f366a09e8bfc4c46aa864652d509825"
+          }
+        },
+        {
+          "client_id": "17686380429-95bucet8isko4jb7l3r4b2vrn7r5505a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB34m22ZkbuMGCtL4nkFe9AEBEJUdKnCXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17686380429-95bucet8isko4jb7l3r4b2vrn7r5505a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "17686380429-0u6vfs3eo6vaiv1upmovu953lptpgtk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iyc.shoutout"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

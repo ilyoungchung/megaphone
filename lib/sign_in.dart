@@ -18,32 +18,33 @@ class _SignInState extends State<SignIn> {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.orange,
         elevation: 0.0,
         actions: <Widget>[
-          FlatButton.icon(
-            icon: Icon(
-              Icons.person_add,
-              color: Colors.white,
-            ),
-            label: Text(
-              "Register",
-              style: TextStyle(color: Colors.white, fontSize: 15),
-            ),
-            onPressed: () {},
-          )
+          
         ],
       ),
       body: Container(
-        color: Colors.black,
+        decoration: BoxDecoration(
+            gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Colors.orange , Colors.red])),
+        
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              FlutterLogo(size: 150),
-              SizedBox(height: 50),
+              Image.asset("assets/images/Super_Megaphone_9.png"),
+              SizedBox(height: 10),
+              Text(
+                "megaphone",
+                style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.w100, fontFamily: 'Oxygen'),
+              
+              ),
+              SizedBox(height: 40),
               SignInButton(
-                Buttons.GoogleDark,
+                Buttons.Google,
                 onPressed: () {
                   signInWithGoogle();
                 },
