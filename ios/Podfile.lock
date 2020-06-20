@@ -134,6 +134,10 @@ PODS:
     - nanopb/encode (= 1.30905.0)
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
+  - OneSignal (2.14.2)
+  - onesignal_flutter (2.5.0):
+    - Flutter
+    - OneSignal (= 2.14.2)
   - PromisesObjC (1.2.8)
   - Protobuf (3.12.0)
 
@@ -148,6 +152,8 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - google_sign_in (from `.symlinks/plugins/google_sign_in/ios`)
   - google_sign_in_web (from `.symlinks/plugins/google_sign_in_web/ios`)
+  - OneSignal (< 3.0, >= 2.9.3)
+  - onesignal_flutter (from `.symlinks/plugins/onesignal_flutter/ios`)
 
 SPEC REPOS:
   trunk:
@@ -171,6 +177,7 @@ SPEC REPOS:
     - GTMAppAuth
     - GTMSessionFetcher
     - nanopb
+    - OneSignal
     - PromisesObjC
     - Protobuf
 
@@ -191,6 +198,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/google_sign_in/ios"
   google_sign_in_web:
     :path: ".symlinks/plugins/google_sign_in_web/ios"
+  onesignal_flutter:
+    :path: ".symlinks/plugins/onesignal_flutter/ios"
 
 SPEC CHECKSUMS:
   AppAuth: 73574f3013a1e65b9601a3ddc8b3158cce68c09d
@@ -221,9 +230,11 @@ SPEC CHECKSUMS:
   GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  OneSignal: 1dcb1fd96f9c15a5c352dcfcab9106a7c15eced7
+  onesignal_flutter: 950630e409caa80d1d3a2653e41e4b9f98ce1a63
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
 
-PODFILE CHECKSUM: 6d9603c5f514503b8fca72a28af45434b816e4e9
+PODFILE CHECKSUM: b9dd1f1c5b3226924434fdb6a70afbe79e63515f
 
 COCOAPODS: 1.9.1
